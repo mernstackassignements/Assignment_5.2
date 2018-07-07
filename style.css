@@ -1,0 +1,15 @@
+/*Css file*/
+/* Style applicable to header*/
+header{
+    padding: 20px 20px 20px 20px;
+    background-color: green;
+    color: white;
+}
+
+/* keep color as blue till 450px*/
+@media screen and (max-width : 450px){
+    header{
+        background-color: blue;
+    }
+}
+
